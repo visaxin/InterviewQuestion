@@ -10,9 +10,14 @@ IDE: IntelliJ
 Solution#1: reverse_a_string.py
 
 Solution#2: Deploy the project on IntelliJ IDE, start tomcat server and search the key work eg "programming". You will get the list.
-BUT NO KINDLE PRICE   
+BUT NO KINDLE PRICE  SOLUTION. 
 
-Solution#3: Run GetArticle.java.     
+![Aaron Swartz](https://github.com/visaxin/InterviewQuestion/blob/master/2.png)
+
+Solution#3: Run GetArticle.java.    
+
+![Aaron Swartz](https://github.com/visaxin/InterviewQuestion/blob/master/1.png)
+
         Result Show: 
                 长:13 times
                 周日:16 times
