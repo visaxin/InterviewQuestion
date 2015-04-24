@@ -33,5 +33,5 @@ Solution#3: Run GetArticle.java.
 
 Dependency:
     1: Jsoup.jar   http://jsoup.org/
-    2:pading opensource project   http://code.google.com/p/paoding/downloads/list   
+    2:paoding opensource project   http://code.google.com/p/paoding/downloads/list   
     
