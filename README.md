@@ -10,7 +10,23 @@ IDE: IntelliJ
 Answer1: reverse_a_string.py
 
 Answer2: Deploy the project on IntelliJ IDE, start tomcat server and search the key work eg "programming". You will get the list.
-BUT NO KINDLE PRICE
+BUT NO KINDLE PRICE   
 
-Answer3: Run GetArticle.java.
+Answer3: Run GetArticle.java.     
+        Result Show: 
+                长:13 times
+                周日:16 times
+                会党:17 times
+                社会:18 times
+                马克隆法案:18 times
+                前:21 times
+                马克:23 times
+                克隆:23 times
+                法国:26 times
+                法案:30 times
 
+
+Dependency:
+    1: Jsoup.jar   http://jsoup.org/
+    2:pading opensource project   http://code.google.com/p/paoding/downloads/list   
+    
