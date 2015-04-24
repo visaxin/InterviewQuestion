@@ -7,12 +7,12 @@
 
 IDE: IntelliJ 
 
-Answer1: reverse_a_string.py
+Solution#1: reverse_a_string.py
 
-Answer2: Deploy the project on IntelliJ IDE, start tomcat server and search the key work eg "programming". You will get the list.
+Solution#2: Deploy the project on IntelliJ IDE, start tomcat server and search the key work eg "programming". You will get the list.
 BUT NO KINDLE PRICE   
 
-Answer3: Run GetArticle.java.     
+Solution#3: Run GetArticle.java.     
         Result Show: 
                 长:13 times
                 周日:16 times
