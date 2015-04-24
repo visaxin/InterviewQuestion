@@ -10,7 +10,7 @@ import java.util.Iterator;
  * Created by jason-zhang on 4/23/2015.
  */
 public class GetISBN {
-    static int getISBN(String url) throws IOException {
+    int getISBN(String url) throws IOException {
         Document doc = Jsoup.connect(url).get();
         Elements ele = doc.select("#info").select("span").select(".pl");
         Iterator<Element> it = ele.iterator();
@@ -25,10 +25,5 @@ public class GetISBN {
             }
         }
         return 00000000000;
-    }
-
-    public static void main(String []args) throws IOException {
-        int d = getISBN("http://book.douban.com/subject/1148282/");
-        System.out.println(d);
     }
 }

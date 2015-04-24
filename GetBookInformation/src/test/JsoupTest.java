@@ -7,6 +7,7 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
 
 /**
@@ -14,7 +15,17 @@ import java.util.Iterator;
  */
 public class JsoupTest {
 
-    public static void main(String []args) throws IOException {
+    public  static void main(String[] args){
+        HashMap<String,Integer> sm = new HashMap<String, Integer>();
+        sm.put("ad",1);
+
+
+        if(sm.get("dd")== null){
+            System.out.println("ok");
+        }
+    }
+
+    /*public static void main(String []args) throws IOException {
 
         String url_tag ="http://book.douban.com/tag/"+"编程";
         Document doc = Jsoup.connect(url_tag).get();
@@ -49,5 +60,5 @@ public class JsoupTest {
             System.out.println(book_name_list.get(i));
         }
 
-    }
+    }*/
 }
